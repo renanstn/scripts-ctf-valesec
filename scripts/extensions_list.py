@@ -149,7 +149,7 @@ EXTENSIONS = (
     "py",
     "rb",
     "rs",
-    "sh		%",
+    "sh",
     "swift",
     "vb",
     "vcxproj",

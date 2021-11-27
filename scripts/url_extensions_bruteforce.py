@@ -1,6 +1,6 @@
 import argparse
 import requests
-from extensions_list import EXTENSIONS
+from extensions_list_simplified import EXTENSIONS
 
 
 BASE_URL = "http://localhost:8003"
