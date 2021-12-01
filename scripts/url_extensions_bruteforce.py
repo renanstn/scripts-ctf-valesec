@@ -3,7 +3,7 @@ import requests
 from extensions_list_simplified import EXTENSIONS
 
 
-BASE_URL = "http://localhost:8003"
+BASE_URL = "https://valesecconf.com.br/786745433234434322"
 
 parser = argparse.ArgumentParser(
     description="Bruteforce URL trying various extensions"
@@ -18,5 +18,5 @@ word = args.word
 for extension in EXTENSIONS:
     url = f"{BASE_URL}/{word}.{extension}"
     response = requests.get(url)
-    if response.status_code != 404:
-        print(f"Something found in: {url}")
+    print(f"Trying: {url}")
+    print(response.status_code)
